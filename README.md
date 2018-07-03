@@ -2,9 +2,16 @@
 
 > bare list of country codes
 
-This package contains **only** country codes in isocode2 format, i.e. *AF*, *AX*, *AL*, ..., *ZW*.
+## Motivation
 
-For example to check if a string is a country isocode2, do something like
+This package contains **only** country codes in isocode2 format, i.e. *AF*, *AX*, *AL*, ..., IT, ..., US, ..., *ZW*.
+
+Its size is around *2.2k*, including *package.json* and *.npmignore*.
+I use it on AWS Lambda, which allowed size is limited, and I wanted only what I need.
+
+## Usage
+
+To check if a string is a country isocode2, do something like
 
 ```javascript
 const countryIsocodes = require('country-isocode2')
@@ -14,7 +21,9 @@ const myCode = 'IT'
 console.log(countryIsocodes.indexOf(myCode) > -1) // true
 ```
 
-Follows a list of country codes and their name.
+## Content
+
+Follows a list of country codes with their names reported for convenience.
 
 Name|Code
 ---|---
