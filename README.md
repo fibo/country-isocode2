@@ -44,8 +44,8 @@ Belize|BZ
 Benin|BJ
 Bermuda|BM
 Bhutan|BT
-Bolivia| Plurinational State of|BO
-Bonaire| Sint Eustatius and Saba|BQ
+Bolivia, Plurinational State of|BO
+Bonaire, Sint Eustatius and Saba|BQ
 Bosnia and Herzegovina|BA
 Botswana|BW
 Bouvet Island|BV
@@ -69,7 +69,7 @@ Cocos (Keeling) Islands|CC
 Colombia|CO
 Comoros|KM
 Congo|CG
-Congo| the Democratic Republic of the|CD
+Congo, the Democratic Republic of the|CD
 Cook Islands|CK
 Costa Rica|CR
 Côte d'Ivoire|CI
@@ -122,7 +122,7 @@ Hungary|HU
 Iceland|IS
 India|IN
 Indonesia|ID
-Iran| Islamic Republic of|IR
+Iran, Islamic Republic of|IR
 Iraq|IQ
 Ireland|IE
 Isle of Man|IM
@@ -135,8 +135,8 @@ Jordan|JO
 Kazakhstan|KZ
 Kenya|KE
 Kiribati|KI
-Korea| Democratic People's Republic of|KP
-Korea| Republic of|KR
+Korea, Democratic People's Republic of|KP
+Korea, Republic of|KR
 Kuwait|KW
 Kyrgyzstan|KG
 Lao People's Democratic Republic|LA
@@ -149,7 +149,7 @@ Liechtenstein|LI
 Lithuania|LT
 Luxembourg|LU
 Macao|MO
-Macedonia| the Former Yugoslav Republic of|MK
+Macedonia, the Former Yugoslav Republic of|MK
 Madagascar|MG
 Malawi|MW
 Malaysia|MY
@@ -162,8 +162,8 @@ Mauritania|MR
 Mauritius|MU
 Mayotte|YT
 Mexico|MX
-Micronesia| Federated States of|FM
-Moldova| Republic of|MD
+Micronesia, Federated States of|FM
+Moldova, Republic of|MD
 Monaco|MC
 Mongolia|MN
 Montenegro|ME
@@ -187,7 +187,7 @@ Norway|NO
 Oman|OM
 Pakistan|PK
 Palau|PW
-Palestine| State of|PS
+Palestine, State of|PS
 Panama|PA
 Papua New Guinea|PG
 Paraguay|PY
@@ -203,7 +203,7 @@ Romania|RO
 Russian Federation|RU
 Rwanda|RW
 Saint Barthélemy|BL
-Saint Helena| Ascension and Tristan da Cunha|SH
+Saint Helena, Ascension and Tristan da Cunha|SH
 Saint Kitts and Nevis|KN
 Saint Lucia|LC
 Saint Martin (French part)|MF
@@ -235,9 +235,9 @@ Swaziland|SZ
 Sweden|SE
 Switzerland|CH
 Syrian Arab Republic|SY
-Taiwan| Province of China|TW
+Taiwan, Province of China|TW
 Tajikistan|TJ
-Tanzania| United Republic of|TZ
+Tanzania, United Republic of|TZ
 Thailand|TH
 Timor-Leste|TL
 Togo|TG
@@ -258,10 +258,10 @@ United States Minor Outlying Islands|UM
 Uruguay|UY
 Uzbekistan|UZ
 Vanuatu|VU
-Venezuela| Bolivarian Republic of|VE
+Venezuela, Bolivarian Republic of|VE
 Viet Nam|VN
-Virgin Islands| British|VG
-Virgin Islands| U.S.|VI
+Virgin Islands, British|VG
+Virgin Islands, U.S.|VI
 Wallis and Futuna|WF
 Western Sahara|EH
 Yemen|YE
