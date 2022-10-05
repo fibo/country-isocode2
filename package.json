@@ -1,10 +1,25 @@
 {
   "name": "country-isocode2",
   "version": "1.0.0",
-  "description": "bare list of country codes",
-  "main": "index.json",
+  "description": "list of country codes and names",
+  "type": "module",
+  "types": "./country-isocode2.d.ts",
+  "exports": {
+    ".": {
+      "import": "./country-isocode2.js"
+    },
+    "./en": {
+      "import": "./country-isocode2.en.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "en": ["./country-isocode2.en.d.ts"]
+    }
+  },
   "scripts": {
-    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
+    "build": "tsc",
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,20 +28,19 @@
   },
   "keywords": [
     "country",
+    "countries",
     "code",
     "codes",
     "isocode",
-    "isocode2",
-    "light",
-    "minimal"
+    "isocode2"
   ],
   "author": {
     "name": "Gianluca Casati",
-    "url": "http://g14n.info"
+    "url": "https://fibo.github.io"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fibo/country-isocode2/issues"
   },
-  "homepage": "http://g14n.info/country-isocode2"
+  "homepage": "https://fibo.github.io/country-isocode2"
 }

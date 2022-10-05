@@ -1,27 +1,35 @@
 # country-isocode2
 
-> bare list of country codes
+> list of country codes and names
 
-## Motivation
-
-This package contains **only** country codes in isocode2 format, i.e. *AF*, *AX*, *AL*, ..., IT, ..., US, ..., *ZW*.
-
-Its size is around *2.2k*, including *package.json* and *.npmignore*.
-I use it on AWS Lambda, which allowed size is limited, and I wanted only what I need.
+This package contains country codes in isocode2 format, i.e. *AF*, *AX*, *AL*, ..., IT, ..., US, ..., *ZW*.
 
 ## Usage
 
-To check if a string is a country isocode2, do something like
+Get an object with country isocodes as *keys* and country names in English as *values*.
 
-```javascript
-const countryIsocodes = require('country-isocode2')
-
-const myCode = 'IT'
-
-console.log(countryIsocodes.indexOf(myCode) > -1) // true
+```js
+import { countries } = from 'country-isocode2/en';
 ```
 
-## Content
+Import list of country isocodes.
+
+```js
+import { countryIsocodes } = from 'country-isocode2';
+```
+
+Use `CountryIsocode2` type.
+
+```ts
+import { CountryIsocode2 } = from 'country-isocode2';
+
+type City = {
+  name: string;
+  country: CountryIsocode2;
+}
+```
+
+## Countries
 
 Follows a list of country codes with their names reported for convenience.
 
