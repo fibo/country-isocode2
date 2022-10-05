@@ -1,6 +1,6 @@
 {
   "name": "country-isocode2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "list of country codes and names",
   "type": "module",
   "types": "./country-isocode2.d.ts",
@@ -14,7 +14,9 @@
   },
   "typesVersions": {
     "*": {
-      "en": ["./country-isocode2.en.d.ts"]
+      "en": [
+        "./country-isocode2.en.d.ts"
+      ]
     }
   },
   "scripts": {
